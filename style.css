@@ -163,6 +163,112 @@ a:hover .title-hover {
 
 /* --------- Contact Section --------- */
 
+#contact {
+  width: 100%;
+  background: rgb(17, 57, 4);
+  background: radial-gradient(
+    circle,
+    rgba(17, 57, 4, 1) 0%,
+    rgba(9, 27, 2, 1) 100%
+  );
+  padding: 1.5rem;
+}
+
+#contact-box {
+  background: rgb(54, 166, 20);
+  background: linear-gradient(
+    235deg,
+    rgba(54, 166, 20, 1) 0%,
+    rgba(28, 93, 10, 1) 100%
+  );
+  border-radius: 5px;
+  border: 3px solid rgb(15, 49, 5);
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+#contact-box header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-box h3 {
+  color: rgb(15, 49, 5);
+  padding: 1.5rem 0rem 2.5rem 0rem;
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 400;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+
+.fa-phone {
+  margin-left: 1rem;
+  animation: flash 5s linear infinite;
+}
+
+@keyframes flash {
+  0% {
+    color: rgb(15, 49, 5);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  }
+  2% {
+    color: white;
+    text-shadow: 0px 0px 4px white;
+  }
+  4% {
+    color: rgb(15, 49, 5);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  }
+  6% {
+    color: white;
+    text-shadow: 0px 0px 4px white;
+  }
+  8% {
+    color: rgb(15, 49, 5);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  }
+  12% {
+    color: white;
+    text-shadow: 0px 0px 4px white;
+  }
+  100% {
+    color: white;
+    text-shadow: 0px 0px 4px white;
+  }
+}
+
+#social-links {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+#social-links a {
+  padding: 0rem 1rem;
+  font-size: 1.7rem;
+  color: rgb(74, 192, 38);
+  transition: 0.5s ease-in-out;
+}
+
+#social-links a:hover {
+  transform: translateY(-25%);
+}
+
+.social-name {
+  text-shadow: 1px 2px 3px black;
+}
+
+.fab,
+.fas {
+  margin-right: 0.5rem;
+}
+
 /* --------- Navbar --------- */
 
 #navbar {
