@@ -308,3 +308,33 @@ a:hover .title-hover {
 .nav-list:hover {
   background-color: #444;
 }
+
+/* --------- Footer/Copyright --------- */
+
+footer {
+  height: 4rem;
+  width: 100%;
+  background-color: #333;
+  border-top: 3px solid #222;
+  box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#copyright {
+  color: white;
+  font-size: 1rem;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+  font-weight: 300;
+  margin-left: 1.5rem;
+}
+
+/* --------- Media Queries --------- */
+
+@media screen and (max-width: 1032px) {
+  #social-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
